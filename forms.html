@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+        </head>
+    <body>
+        <h1>registration</h1>
+        <form action="index.html">
+            name<input type="text" placeholder="enter your name"<br><br>
+            email<input type="email" placeholder="xxxx@gamil.com"<br><br>   
+            password<input type="password"><br><br>
+            phone no<input type="tel" patter="[0-9]{10}"><br><br>
+            gender<input type="radio" name="gender">male<br><br>
+            <input type="radio" name="gender">female<br><br>
+             skills<input type="checkbox" name="skills">html<br><br>
+             <input type="checkbox" name="skills">css<br><br>
+                <input type="checkbox" name="skills">javascript<br><br>
+                 <input type="checkbox" name="skills">python<br><br>
+                  <input type="checkbox" name="skills">java<br><br>
+                  DOB<input type="date"><br><br>
+                time<input type="time"><br><br>
+        </form>
+        state<select name="state">
+            <option>ap</option>
+            <option>telangana</option>
+            <option>odisha</option> 
+            <option>tamilnadu</option>
+            <option>kerala</option>
+            </select><br><br>
+            skills<select multiple="4">
+                <option>html</option>
+                <option>css</option>
+                <option>javascript</option>
+                <option>python</option>
+                <option>java</option>
+            </select><br><br>
+    college name<input list="clg" type="list">
+    <datalist class="clg"name="clg "id="clg">
+        <option>ndc</option>
+        <option>sdms</option> 
+        <option>pbs</option>
+        <option>gdc</option>
+        <option>kbn</option>
+        <option>gml</option>
+        <option>nri</option>
+    </datalist><br><br>  
+    resume<input type="file" accept=".png,.jpg,.pdf">
+    <input type="submit" value="register">
+</form>  
+    </body>
+</html>
